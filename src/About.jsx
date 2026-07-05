@@ -11,27 +11,28 @@ const MapGuide = () => {
     return (
         <>
             <h2>Map guide</h2>
-            <img src={"/flyer-map/boat sample.png"}
-                 style={{float: "right"}}
-                 width="155"
-                 height="173"
-                 alt="Image interpreting boat icon" />
+            <img
+                src={"/flyer-map/boat sample.png"}
+                style={{ float: "right" }}
+                width="155"
+                height="173"
+                alt="Image interpreting boat icon"
+            />
             <p>
-                The black line is a <a href={"https://www.weather.gov/hfo/windbarbinfo"}>wind
-                barb</a> that shows the wind direction and speed. It
-                points&nbsp;<i>from</i>&nbsp;the direction of the wind. The
-                purple line with the small circle on the end is the course over
-                ground. Its length represents how far the boat will travel in 10
-                minutes. Finally, the boat is oriented along the
-                boat&apos;s&nbsp;<i>heading</i>. Putting it all together, in
-                the image to the right, the boat is heading southwest, the wind is
-                between 8 and 12 knots from the west, and the course over ground
-                is south.
+                The black line is a{" "}
+                <a href={"https://www.weather.gov/hfo/windbarbinfo"}>wind barb</a> that shows the
+                wind direction and speed. It points <i>from</i> the direction of the wind.
+                The purple line with the small circle on the end is the course over ground. Its
+                length represents how far the boat will travel in 10 minutes. Finally, the boat is
+                oriented along the boat&apos;s <i>heading</i>. Putting it all together, in the
+                image to the right, the boat is heading southwest, the course over ground is south
+                (implying a current traveling to the east), and the wind is between 8 and 12 knots from just
+                north of west,
             </p>
             <p>
-                If the boat is moving, it will leave a trail of "breadcrumbs" behind, up to
-                12 hours long. Clicking on a crumb will bring up the conditions at that time
-                and place.
+                If the boat is moving, it will leave a trail of up to 12 hours worth of
+                &quot;breadcrumbs&quot; behind it. Clicking on a crumb will bring up the conditions
+                at that time and place.
             </p>
         </>
     );
