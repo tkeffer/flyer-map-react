@@ -1,3 +1,8 @@
+1.6.1 2026-07-05
+
+* Include a picture of breadcrumbs with an explanation in the "About" section.
+
+
 1.6.0 2026-06-27
 
 * Better positioning of the InfoWindow in the breadcrumbs.
